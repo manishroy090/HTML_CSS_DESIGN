@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main-header{
+    
+    display: flex;
+    height: 68px;   
+    background-color: #fff;
+}
+#main-header h1{
+ 
+ margin-left: 99px;
+ padding: 11px;
+}
+.logo  a{
+    text-decoration: none;
+}
+#navbar{
+    margin:auto;
+}
+#navbar ul li {
+ 
+ list-style: none;
+ margin-left: 37px;
+ font-size: 20px;
+ float: left;
+ 
+ 
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    
+}
+#button{
+    
+    border: 5px solid #3194db;
+    background-color: #3194db;
+    border-radius: 8px;
+   
+}
+#button a{
+    color: white;
+}
+.container{
+    width: 1243px;
+    height: 779.6px;
+    text-align: center;
+    margin-top:0px;
+    
+    margin-left: 100px;
+}
+.heading{
+    padding:99px;
+   
+    height: 90px;
+}
+#first-heading{
+    font-size: 54px;
+    width: 482px;
+    margin: auto;
+    
+    
+
+}
+#second-hading{
+text-decoration-style: none;
+    
+    
+}
+#butt{
+    border: 5px solid #3194db;
+    border-radius: 8px;
+    background-color: #3194db;
+    color: #e9ecef;
+    font-size:31px;
+   
+}
+#sec-button a{
+    text-decoration: none;
+}
+.box-model{
+    width: 1119px;
+    height: 779.6px;
+    display: flex;
+    margin-left: 99px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.box-size{
+    width: 240px;
+    height: 320.2;
+    border: 5px solid #e9ecef;
+
+}
+.icon img{
+    margin-top: 34px;
+    float: left;
+    margin-left: 37px;
+    width: 44px;
+    height:40px;
+}
+.title{
+    margin-top: 96px;
+    font-size: 30px;
+}
+.par{
+    margin-top: 16px;
+}
+#second-box{
+    margin-left: 30px;
+}
+#third-box{
+    margin-left: 30px;
+}
+#fourth-box{
+    margin-left: 30px; 
+}

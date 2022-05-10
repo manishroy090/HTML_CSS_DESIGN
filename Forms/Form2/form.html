@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+form {
+    margin-top: 100px;
+    width: 400px;
+    background-color: rgb(175 171 171);
+}
+
+
+
+
+.elements {
+    background-color: #FF0000;
+    width: 346px;
+    margin: 15px 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    width: 346px;
+
+
+
+}
+
+h1 {
+    line-height: 50px;
+    padding: 0px 31px;
+    color: #fff;
+    font-family: ' Gill Sans', sans-serif;
+}
+
+h2 {
+    line-height: 30px;
+    padding: 0px 31px;
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.formcontent {
+    width: 346px;
+    height: 312px;
+    margin-top: 25px;
+    display: flex;
+    border-top-left-radius: 30px;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#username {
+    margin-top: 30px;
+}
+
+.F_element {
+    width: 222px;
+    height: 35px;
+    margin: 10px 31px;
+}
+
+#btn {
+    width: 91px;
+    height: 43px;
+    margin: 20px 20px;
+    border: 1px solid red;
+    border-radius: 11px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <div class="elements">
+            <header>
+                <h1>Contact</h1>
+                <h2>FEEl FREE TO<br> CONTACT WITH OUR<br> IT AGENCY</h2>
+            </header>
+            <div class="formcontent">
+                <input type="text" id="username" placeholder="First Name" class="F_element" name="username">
+                <input type="email" id="email" placeholder="your E-mail" class="F_element" name="email">
+                <input type="number" id="phone" placeholder="Phone No." class="F_element" name="phone">
+                <input type="textarea" id="comment" placeholder="Write comments" class="F_element">
+                <button type="button" id="btn" onclick="validation()">Submit Now</button>
+
+            </div>
+
+        </div>
+
+    </form>
+    <script src="../Form/form.js"></script>
+</body>
+
+</html>
